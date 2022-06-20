@@ -22,3 +22,11 @@
 - Use ```DecisionTreePredictor``` block to predict the data.
 
 ![First Model](images/first_model.PNG)
+
+## Data Accessing
+- Create a new workflow called ```DataAccessing```
+- Add a new  ```Excel Reader``` block to read the data.
+- Add a new  ```File Reader``` block to read the data (csv file).
+- Create a table with ```Table Creator``` block.
+
+## Basic Visualization
