@@ -24,9 +24,29 @@
 ![First Model](images/first_model.PNG)
 
 ## Data Accessing
+
+[Data Accesing](DataAccessing)
+
 - Create a new workflow called ```DataAccessing```
 - Add a new  ```Excel Reader``` block to read the data.
 - Add a new  ```File Reader``` block to read the data (csv file).
 - Create a table with ```Table Creator``` block.
 
 ## Basic Visualization
+
+- Use ```Scatter Plot``` block to visualize the data.
+- Use ```Color Manager``` block to color the data.
+- Use ```Line Plot``` block to visualize the data in the csv file.
+- Use ```Pie Chart``` block to visualize in form of a pie chart.
+
+## Basic Data Manipulation and Preprocessing.
+
+### Row Filtering and Missing Values
+
+-  Use ```Row Filter``` block to filter applying a condition to the data.
+- Use ```Rule Based Filter``` block to filter the data based on the rules.
+
+
+
+
+
