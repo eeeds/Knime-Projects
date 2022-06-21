@@ -51,7 +51,8 @@
     $Height$>0 AND $Weight$ >= 50 => TRUE 
     $Height$>0 AND $Weight$ >= 50 AND ($Height$ <220 OR $ID$ >5) => TRUE 
     ```
-
+### Column Filter
+- Use ```Column Filter``` block to filter the data based on the column name.
 
 
 
