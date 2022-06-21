@@ -45,6 +45,12 @@
 
 -  Use ```Row Filter``` block to filter applying a condition to the data.
 - Use ```Rule Based Filter``` block to filter the data based on the rules.
+    ```
+    $Height$>0 =>  TRUE 
+    $Height$<0 =>  FALSE
+    $Height$>0 AND $Weight$ >= 50 => TRUE 
+    $Height$>0 AND $Weight$ >= 50 AND ($Height$ <220 OR $ID$ >5) => TRUE 
+    ```
 
 
 
