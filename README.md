@@ -65,7 +65,16 @@
 
 - Use ```Joiner ``` block to join data.
 
+### Group by
 
+- Use ```Groupby``` block to do aggregate functions.
+- Group variables using ```Groups``` setting.
+- In ```Manual Aggregation``` setting, you can specify the aggregate function.
 
+### String Replacer
 
+- Use ```String Replacer``` block to replace values in string cells if they match a certain wildcard pattern.
 
+### Math Formula
+
+- Use ```Math Formula``` block to apply mathematical formulas to the data.This node evaluates a mathematical expression based onthe values in a row.
