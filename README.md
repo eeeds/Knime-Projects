@@ -78,3 +78,17 @@
 ### Math Formula
 
 - Use ```Math Formula``` block to apply mathematical formulas to the data.This node evaluates a mathematical expression based onthe values in a row.
+
+![Math Formula](images/math_formula.PNG)
+
+### Auto Binner
+
+- Use ```Auto Binner``` block to bin the data.
+
+### Numeric Binner
+
+- Use ```Numeric Binner``` block to bin the data based on the numeric values.
+
+### Normalizer
+
+- Use ```Normalizer``` block to normalize the data.
