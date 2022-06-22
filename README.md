@@ -107,3 +107,15 @@ from the menu or by clicking the button with the meta node icon in the toolbar (
 ### Data Generators
 
 Creates random data containing some clusters for Parallel Universes. The data contains a certain fraction of noise patterns and data that is generated to clusters (all clusters have the same size). The data is normalized in [0, 1].
+
+### Column Combiner
+
+- Use ```Column Combiner``` block to combine the data.
+
+### Cell Splitter
+
+- Use ```Cell Splitter``` block to split the data.
+
+### Type conversion
+
+-Use ```String to Number``` block to convert the data.
