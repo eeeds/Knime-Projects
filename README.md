@@ -92,3 +92,9 @@
 ### Normalizer
 
 - Use ```Normalizer``` block to normalize the data.
+
+### Pivoting
+
+- Use ```Pivoting``` block to pivot the data.
+- ```Groups``` setting specify what you want to see in the row header.
+- ```Pivot``` setting specify what you want to see in the column header.

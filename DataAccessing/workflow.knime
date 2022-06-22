@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="User"/>
         <entry key="authored-when" type="xstring" value="2022-06-20 10:18:58 -0400"/>
         <entry key="lastEdited-by" type="xstring" value="User"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-06-22 07:47:11 -0400"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-06-22 08:27:33 -0400"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -32,16 +32,16 @@
         </config>
         <config key="node_3">
             <entry key="id" type="xint" value="3"/>
-            <entry key="node_settings_file" type="xstring" value="Normalizer (#3)/settings.xml"/>
+            <entry key="node_settings_file" type="xstring" value="Pivoting (#3)/settings.xml"/>
             <entry key="node_is_meta" type="xboolean" value="false"/>
             <entry key="node_type" type="xstring" value="NativeNode"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="244"/>
+                    <entry key="0" type="xint" value="204"/>
                     <entry key="1" type="xint" value="117"/>
-                    <entry key="2" type="xint" value="68"/>
+                    <entry key="2" type="xint" value="50"/>
                     <entry key="3" type="xint" value="78"/>
                 </config>
             </config>
