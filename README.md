@@ -98,3 +98,12 @@
 - Use ```Pivoting``` block to pivot the data.
 - ```Groups``` setting specify what you want to see in the row header.
 - ```Pivot``` setting specify what you want to see in the column header.
+
+### Metanode
+
+Meta nodes are nodes that contain subworkflows, i.e. in the workflow they look like a single node, although they can contain many nodes and even more meta nodes. They are created with the help of the meta node wizard. You can open the meta node wizard by either selecting "Node/Add Meta Node"
+from the menu or by clicking the button with the meta node icon in the toolbar (workflow editor must be active).
+
+### Data Generators
+
+Creates random data containing some clusters for Parallel Universes. The data contains a certain fraction of noise patterns and data that is generated to clusters (all clusters have the same size). The data is normalized in [0, 1].
