@@ -118,4 +118,23 @@ Creates random data containing some clusters for Parallel Universes. The data co
 
 ### Type conversion
 
--Use ```String to Number``` block to convert the data.
+- Use ```String to Number``` block to convert the data.
+
+
+## Modeling:
+
+Visit [Modeling](https://www.knime.com/nodeguide/analytics/classification-and-predictive-modelling) for more details.
+
+## Classification models:
+
+[Refers to the folder](Classification)
+
+#### Naive Bayes:
+
+- Use ```Naive Bayes Learner``` block to train the model.
+        -Limit your nominal values to the ones you want to use (```Nominal Values``` setting).
+- Use ```Naive Bayes Predictor``` block to predict the data.
+
+
+
+
