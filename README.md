@@ -170,3 +170,8 @@ A tree can be “learned” by splitting the source set into subsets based on an
         Then it does not wait for test data to learn
 
         So it takes long time learning and less time classifying data
+
+
+- Check ```Output class probabilities``` setting to see the probability of the class.
+
+![KNN](images/knn.PNG)
