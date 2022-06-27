@@ -135,7 +135,6 @@ Visit [Modeling](https://www.knime.com/nodeguide/analytics/classification-and-pr
         -Limit your nominal values to the ones you want to use (```Nominal Values``` setting).
 - Use ```Naive Bayes Predictor``` block to predict the data.
 
-
-
+![Naive Bayes Example](images/naive-bayes.PNG)
 
 
