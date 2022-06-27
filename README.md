@@ -138,3 +138,17 @@ Visit [Modeling](https://www.knime.com/nodeguide/analytics/classification-and-pr
 ![Naive Bayes Example](images/naive-bayes.PNG)
 
 
+### Decision Tree:
+Decision Tree : Decision tree is the most powerful and popular tool for classification and prediction. A Decision tree is a flowchart-like tree structure, where each internal node denotes a test on an attribute, each branch represents an outcome of the test, and each leaf node (terminal node) holds a class label. 
+ 
+A decision tree for the concept PlayTennis. 
+Construction of Decision Tree : 
+A tree can be “learned” by splitting the source set into subsets based on an attribute value test. This process is repeated on each derived subset in a recursive manner called recursive partitioning. The recursion is completed when the subset at a node all has the same value of the target variable, or when splitting no longer adds value to the predictions. The construction of a decision tree classifier does not require any domain knowledge or parameter setting, and therefore is appropriate for exploratory knowledge discovery. Decision trees can handle high-dimensional data. In general decision tree classifier has good accuracy. Decision tree induction is a typical inductive approach to learn knowledge on classification. 
+
+- Decision Tree Learner Configuration:
+    -   Select the target in the ```Class Column``` setting.
+    -   Select the quality measure with ```Quality measure``` setting.
+    -   Avoid overfitting using ```Min number records per node``` setting.
+    -   You can force the root with ```Force Root split column``` setting.
+
+![Decision Tree](images/decision-tree.PNG)
