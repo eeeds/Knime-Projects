@@ -152,3 +152,21 @@ A tree can be “learned” by splitting the source set into subsets based on an
     -   You can force the root with ```Force Root split column``` setting.
 
 ![Decision Tree](images/decision-tree.PNG)
+
+
+### K-Nearest Neighbor Algorithm
+-   Lazy learner:
+
+        Just store Data set without learning from it
+
+        Start classifying data when it receive Test data
+
+        So it takes less time learning and more time classifying data
+
+-   Eager learner:
+
+        When it receive data set it starts classifying (learning)
+
+        Then it does not wait for test data to learn
+
+        So it takes long time learning and less time classifying data
