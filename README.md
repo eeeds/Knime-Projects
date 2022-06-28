@@ -195,3 +195,62 @@ A tree can be “learned” by splitting the source set into subsets based on an
 ### Example of all the models
 
 ![Using all models](images/iris-project.PNG)
+
+## Comparing Classification Algorithms
+### 1. Problem Type
+
+    All the algorithms considered in here are for the classification. We are going to revisit the algorithms for different problem types in the future.
+
+### 2. Interpretable?
+
+    One major criteria about the machine learning algorithms is the interpretability. Some algorithms are extremely complex and even if they yield the best results, sometimes we do not prefer to use them because it is not easy to understand or explain. So the list of algorithms and their interpretability's:
+
+    Naive Bayes : Sometimes : It is a probabilistic algorithm and remember the theoretical part of our courses. It is explainable but not easy all the time. Especially if you have high number of attributes in your data set it gets more complex to explain.
+
+    Decision Trees: YES: One major advantage of decision trees is the interpretability. I can easily say they are the best algorithms to explain something.
+
+    KNN: YES: it is as simple as explaining the distance between two points. So, if you can find a good result in KNN, you can just visualize the data points on a board, get a ruler and show how they are classified.
+
+    SVM: Sometimes: If the problem is linearly separable, and if you can find a border line between the classes, than you can draw the line between the classes and explain how you find the classification. Unfortunately, it gets more complex with the increasing number of attributes and class labels.
+
+    Logistic Regression: Sometimes: Sometimes it is really easy to understand and explain the outcomes of logistic regression. For example if the problem is binary classification and if you have only 1 attribute, it would be a very easy job to explain. On the other hand, by the increasing number of labels in your classification or by the increasing number of attributes, it gets more and more complex.
+
+### 3. Average Accuracy
+
+    Unfortunately, all the algorithms we have covered until now have low accuracy. In the future classes we are going to cover some techniques like ensemble or neural networks and we are going to talk about why we have higher accuracies.
+
+### 4. Training Speed
+
+    Keep in mind that, these algorithms are very basic and simple algorithms. This brings up a very important speed advantage. So we can say all the algorithms in the list have short training times.
+
+### 5. Prediction Speed
+
+    All the algorithms results the predictions in a short time. Only for the K-NN and if you go with the lazy learning, you might  have difficulty about the prediction time.
+
+### 6. Small number of observations
+
+    KNN: No, requires a certain number of data points, depending on the value of K parameter
+
+    Decision Tree: No, requires some data points to create decision nodes in order to split data set into small trees.
+
+    For the rest of the algorithms: Naive Bayes, SVM or Logistic Regression, you can easily create a decision boundary even if you have small number of data points in your data set.
+
+### 7. Noisy Data
+
+    If a data point is noisy, like we have 250 in height or 300 in weight, the algorithm may be immune to the problem and can handle the situation. All the algorithms except Naive Bayes are weak for the problems like noisy data because they only assume a data point as it is.
+
+    KNN will classify any data point close to the noisy data with the class of noisy data point and will not consider any exception. For the KNN, a noisy data is just another data point and KNN has no immunity against noisy data.
+
+    Decision tree will classify the noisy data as a separate leaf in the tree and any data classification will easily go into the branch of noisy data if it is just close enough. This is also a problem for DT and it can not handle noisy data as a problem and keeps classifying the data points even if they are noisy.
+
+    SVM will just consider the data point in order to find a separation border as any other data points. SVM can not handle the noisy data problem.
+
+    On the other hand the probability of a noisy data in Naive Bayes will be considered as a exception and will not create a problem.
+
+    ### 8. Requires Scaling?
+
+    Only KNN and SVM needs scaling because the parameters are compared with each other during the distance calculation. Don't forget we have normalized the attributes in order to create a better distance metric in KNN. Similarly, SVM also uses the distance and I would strongly recommend you to use scaling / normalization before the SVM algorithm.
+
+    On the other hand, DT, NB or LR never considers axises together. Each axis for the decision tree Naive Bayes or Logistic regression is a completely different story to take care of.
+
+
