@@ -175,3 +175,13 @@ A tree can be “learned” by splitting the source set into subsets based on an
 - Check ```Output class probabilities``` setting to see the probability of the class.
 
 ![KNN](images/knn.PNG)
+
+
+### Distance Metrics
+
+- You can use ```Numeric Distances``` setting to use the Euclidean distance or the Manhattan distance.
+- You can use ```K Nearest Neihbor (Distance Function) ``` block to use the previous distance metric.
+- Don't forget about normalization before using the distance metric.
+- You can use ```Java Distance``` block to use the distance metric in Java.
+
+![Distance Metrics](images/distance-metrics.PNG)
