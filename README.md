@@ -283,7 +283,12 @@ Then we recalculate the central points again until the central points are the sa
 
 When you have more k values, the WCSS is going to be lower.
 
+### K-Means in Knime
 
+- You can use ```K-means``` block to applied the algorithm.
+- You can set the number of clusters using the ```Number of Clusters``` parameter.
+
+![K-Means](images/k-means.PNG)
 
 
 
