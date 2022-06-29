@@ -268,5 +268,25 @@ A tree can be “learned” by splitting the source set into subsets based on an
 
  ## Clustering /Segmentation
 
- 
+    - Centroid Models: K-Means
+    - Connectivity Models: Hierarchical Clustering
+    - Distribution Based Models
+    - Density Models: DBSCAN
+
+### K-Means algorithm
+
+It's an algorithm that works using central points to cluster the data points.
+First at all, we need to define the central points (K), then we need to find the closest point to each of the central points.
+Then we recalculate the central points again until the central points are the same as the previous ones or until the number of iterations is reached.
+
+### Optimum number of clusters (k value) and WCSS (Within Cluster Sum of Squares)
+
+When you have more k values, the WCSS is going to be lower.
+
+
+
+
+
+
+
 
