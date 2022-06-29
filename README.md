@@ -290,8 +290,16 @@ When you have more k values, the WCSS is going to be lower.
 
 ![K-Means](images/k-means.PNG)
 
+### Optimizing with Grid Search
 
+- You can use ```Table Column to Variable``` block to convert the table column to a variable.
+- You can use ```Table Row to Variable Loop Start``` block to convert the table row to a variable loop.
+- You can use ```Entropy Scorer``` block to measure the success of the clustering.
+- You can use ```Loop end``` block to collect intermediate results.
 
+You can see how the entropy score changes with the number of clusters.
+
+![K-Means with Grid Search](images/k-means2.PNG)
 
 
 
