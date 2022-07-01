@@ -302,4 +302,22 @@ You can see how the entropy score changes with the number of clusters.
 ![K-Means with Grid Search](images/k-means2.PNG)
 
 
+### Hierarchical Clustering
+
+In data mining and statistics, hierarchical clustering (also called hierarchical cluster analysis or HCA) is a method of cluster analysis which seeks to build a hierarchy of clusters. Strategies for hierarchical clustering generally fall into two types:
+
+-   Agglomerative: This is a "bottom-up" approach: each observation starts in its own cluster, and pairs of clusters are merged as one moves up the hierarchy.
+-   Divisive: This is a "top-down" approach: all observations start in one cluster, and splits are performed recursively as one moves down the hierarchy.
+In general, the merges and splits are determined in a greedy manner. The results of hierarchical clustering[2] are usually presented in a dendrogram.
+
+- You can use ```Hierarchical Clustering ``` block to applied the algorithm.
+- Select the linkage type using the ```Linkage Type``` parameter.
+
+
+### DBSCAN algorithm
+
+    DBSCAN is a density-based clustering algorithm that is used to group the objects of a data set into a number of clusters. The algorithm is based on a concept of density, which is the inverse of separation. The algorithm is very similar to the K-means algorithm, but it is more efficient in terms of speed and memory.
+
+    
+
 
