@@ -6,8 +6,8 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="clustering_table_col_column" type="xstring" value="Cluster"/>
         <entry key="reference_table_col_column" type="xstring" value="Height"/>
+        <entry key="clustering_table_col_column" type="xstring" value="Cluster"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>

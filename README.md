@@ -318,6 +318,14 @@ In general, the merges and splits are determined in a greedy manner. The results
 
     DBSCAN is a density-based clustering algorithm that is used to group the objects of a data set into a number of clusters. The algorithm is based on a concept of density, which is the inverse of separation. The algorithm is very similar to the K-means algorithm, but it is more efficient in terms of speed and memory.
 
-    
+- DBSCAN needs distance metric to be used. We can add it to the algorithm using the ```Numeric Distances`` block. We can decided to use Euclidean distance or Manhattan distance.
+- DBSCAN requires Epsilon value to be used. We can add it to the algorithm using the ```Epsilon``` parameter in ```DBSCAN``` block.
+
+
+![DBSCAN](images/dbscan.PNG)
+
+
+
+
 
 

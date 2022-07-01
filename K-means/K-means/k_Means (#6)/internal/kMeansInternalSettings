@@ -15,43 +15,43 @@
     </config>
     <config key="kMeansCluster0">
         <entry key="array-size" type="xint" value="2"/>
-        <entry key="0" type="xdouble" value="168.0"/>
-        <entry key="1" type="xdouble" value="71.0"/>
+        <entry key="0" type="xdouble" value="0.4500000000000002"/>
+        <entry key="1" type="xdouble" value="0.6199999999999999"/>
     </config>
     <config key="kMeansCluster1">
         <entry key="array-size" type="xint" value="2"/>
-        <entry key="0" type="xdouble" value="150.0"/>
-        <entry key="1" type="xdouble" value="50.0"/>
+        <entry key="0" type="xdouble" value="0.0"/>
+        <entry key="1" type="xdouble" value="0.19999999999999996"/>
     </config>
     <config key="kMeansCluster2">
         <entry key="array-size" type="xint" value="2"/>
-        <entry key="0" type="xdouble" value="187.5"/>
-        <entry key="1" type="xdouble" value="87.5"/>
+        <entry key="0" type="xdouble" value="0.7875000000000001"/>
+        <entry key="1" type="xdouble" value="0.95"/>
     </config>
     <config key="kMeansCluster3">
         <entry key="array-size" type="xint" value="2"/>
-        <entry key="0" type="xdouble" value="175.0"/>
-        <entry key="1" type="xdouble" value="53.0"/>
+        <entry key="0" type="xdouble" value="0.625"/>
+        <entry key="1" type="xdouble" value="0.26"/>
     </config>
     <config key="kMeansCluster4">
         <entry key="array-size" type="xint" value="2"/>
-        <entry key="0" type="xdouble" value="179.0"/>
-        <entry key="1" type="xdouble" value="81.66666666666667"/>
+        <entry key="0" type="xdouble" value="0.8250000000000002"/>
+        <entry key="1" type="xdouble" value="0.8333333333333334"/>
     </config>
     <config key="kMeansCluster5">
         <entry key="array-size" type="xint" value="2"/>
-        <entry key="0" type="xdouble" value="160.0"/>
-        <entry key="1" type="xdouble" value="40.0"/>
+        <entry key="0" type="xdouble" value="0.25"/>
+        <entry key="1" type="xdouble" value="0.0"/>
     </config>
     <config key="kMeansCluster6">
         <entry key="array-size" type="xint" value="2"/>
-        <entry key="0" type="xdouble" value="164.0"/>
-        <entry key="1" type="xdouble" value="56.5"/>
+        <entry key="0" type="xdouble" value="0.3500000000000001"/>
+        <entry key="1" type="xdouble" value="0.32999999999999996"/>
     </config>
     <config key="kMeansCluster7">
         <entry key="array-size" type="xint" value="2"/>
-        <entry key="0" type="xdouble" value="173.5"/>
-        <entry key="1" type="xdouble" value="59.0"/>
+        <entry key="0" type="xdouble" value="0.5874999999999999"/>
+        <entry key="1" type="xdouble" value="0.3799999999999999"/>
     </config>
     <config key="FeatureNames">
         <entry key="array-size" type="xint" value="2"/>
