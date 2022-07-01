@@ -324,6 +324,37 @@ In general, the merges and splits are determined in a greedy manner. The results
 
 ![DBSCAN](images/dbscan.PNG)
 
+## Comparison of Clustering Algorithms
+
+After covering the clustering algorithms, we are comparing Hierarchical Clustering vs K-Means Algorithm
+
+### 1. Algorithmic Background:
+
+    Both Hierarchical and K-Means algorithms are based on the distance based approach. Basically, the algorithms create clusters by the distances between the data points and almost any distance metric can be deployed ilke euclidean, Manhattan, Minkowski or Chebyshev distances (please refer to the distance metrics course in KNN under classification chapter).
+
+    The philosophy of the algorithms are different on the other hand. Hierarchical clustering is based on the hierarchy of the data points. So basically a data point is a member of cluster in an hierarchical order.
+
+    On the other hand, for the k-means algorithm, the philosophy is the similarity. K-Means goes after the similar or dissimilar data points.
+
+    In the literature, the k-means algorithm is called as centroid based model and hierarchical clustering is called as connectivity based algorithm. Also, we have two more categories for the clustering algorithms, which are the distribution based and density based models but they are mostly useful for streaming data problems.
+
+    Finally, the DBSCAN algorithm is also based on the distance based metrics. The connections between core data points or the dissimilarity of noise and core data point is all determined by the distances between data points.
+
+### 2. Data Set Size and Time Performance
+    
+    Both k-means and hierarchical clustering algorithms have advantages and disadvantages. One major difference is about the data set size. Hierarchical clustering works very good in small data set sizes, but on a large data set, hierarchical clustering can not work or takes very long time to execute. On the other hand, k-menas has advantages on the larger data sets. So, as a summary, I can suggest you to use k-means if you have a very large dataset.
+
+    From the benchmarks, the DBSCAN algorithm has some performance advantages over k-means. Also there is a special version of DBSCAN, which is called as HDBSCAN (hierarchical version of DBSCAN) and this special version has major advantage over k-means in many benchmarks. But for now, it is better to say, both DBSCAN and K-Means have advantages over hierarchical clustering.
+### 3. Multiple execution stability
+    In K Means clustering, since we start with random choice of clusters, the results produced by running the algorithm multiple times might differ. While results are reproducible in Hierarchical clustering and DBSCAN algorithms.
+
+### 4. Initial Parameters
+    K Means clustering requires prior knowledge of K i.e. no. of clusters you want to divide your data into. But, you can stop at whatever number of clusters you find appropriate in hierarchical clustering by interpreting the dendrogram. Although there are other versions of k-means algorithms like x-means, they are just a simple grid search version of k-means.
+
+    On the other hand, DBSCAN algorithm does not require any initial parameters to predefine number of clusters. DBSCAN algorithm has an advantage for the number of clusters but the parameters epsilon and minpts are very crucial in DBSCAN execution.
+
+### 5. Hard vs Soft Clustering
+    We also have fuzzy clustering, where the membership of a data point is not certain to a cluster, instead the clusters have fuzzy borders. There are special versions of k-means for the fuzzy borders and called as fuzzy c-means.
 
 
 
