@@ -397,5 +397,6 @@ After covering the clustering algorithms, we are comparing Hierarchical Clusteri
 -   You can set the  max grade of the polynomial regression using the ```Maximum Polynomial degree``` parameter.
 ![Regression](images/regression5.PNG)
 
+## Regression by Decision Tree
 
 
