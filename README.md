@@ -373,5 +373,16 @@ After covering the clustering algorithms, we are comparing Hierarchical Clusteri
 
 ![Regression Test](images/regression2.PNG)
 
+## Multiple Linear Regression
+
+    Multiple linear regression is used to predict the value of a variable based on the value of multiple variables.
+
+    Example: Predicting the weight of a person based on his height and weight.
+
+
+
+![Regression](images/regression3.PNG)
+
+
 
 
