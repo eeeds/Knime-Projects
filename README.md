@@ -388,8 +388,10 @@ After covering the clustering algorithms, we are comparing Hierarchical Clusteri
 
     Polynomial regression is used to predict the value of a variable based on the value of multiple variables.
     In polynomial regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modelled as an nth degree polynomial in x.
-    
+
     Example: Predicting the weight of a person based on his height and weight.
+
+![Polynomical Regression](images/regression4.PNG)
 
 
 
