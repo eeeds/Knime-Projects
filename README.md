@@ -363,7 +363,15 @@ After covering the clustering algorithms, we are comparing Hierarchical Clusteri
 
 ![Regression](images/regression1.PNG)
 
+## Error calculation
 
+    Absolute error: The absolute error is the difference between the predicted value and the actual value.
+    Squared error: The squared error is the square of the absolute error.
+    RMSE: The root mean squared error is the square root of the squared error.
+    
+-   You can use ```Numeric Scorer``` block to calculate many types of error.
+
+![Regression Test](images/regression2.PNG)
 
 
 
