@@ -356,6 +356,13 @@ After covering the clustering algorithms, we are comparing Hierarchical Clusteri
 ### 5. Hard vs Soft Clustering
     We also have fuzzy clustering, where the membership of a data point is not certain to a cluster, instead the clusters have fuzzy borders. There are special versions of k-means for the fuzzy borders and called as fuzzy c-means.
 
+## Linear Regression
+    Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable.
+
+## Predicting Weight with Height
+
+![Regression](images/regression1.PNG)
+
 
 
 
