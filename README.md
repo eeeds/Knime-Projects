@@ -408,5 +408,76 @@ After covering the clustering algorithms, we are comparing Hierarchical Clusteri
 
 ![Simple Regression Tree](images/regression6.PNG)
 
+## Comparison of Regression Models
+We have covered below regression models and we are going to compare the models in this article:
+
+    1. Linear regression has an assumption of the axises of data set has a linear relation. For example if the data set has 2 dimensions (axises) only, then the assumption of linear regression is, there is a relation between two axises which can be formalized as y = ax + b. The regression problems are mainly used in time series and forecasting, so if this is the case one of the dimensions becomes temporal information, such as year or months, and the linear regression gives us the trend.
+
+        Linear regression is very useful for understanding the trend of the data set and it can even predict long term values with the given trend.
+
+        Linear regression has two types in the literature:
+
+        1.1. Single Variable Linear Regression (or simply the Single Linear Regression in some sources).
+
+        1.2. Multiple Variable Linear Regression (or simply the Multiple Linear Regression in some sources).
+
+        The only difference is the number of independent variables and the number of variables increases the dimension of linear formula only.
+
+    2. Polynomial regression is also useful for predicting short term outcomes or missing values. Despite of linear regression, the polynomial regression has a very bad outcome in long term prediction for most of the cases.
+
+    Don't forget, the linear regression is a special type of polynomial regression where the degree of regression is equal to 1.
+
+    Pros:
+
+    Fast to model and is particularly useful when the relationship to be modeled is not extremely complex and if you don’t have a lot of data.
+
+    Linear regression is simple to understand which can be very valuable for business decisions.
+
+    Cons:
+
+    For non-linear data, polynomial regression can be quite challenging to design, as one must have some information about the structure of the data and relationship between feature variables.
+
+    As a result of the above, these models are not as good as others when it comes to highly complex data.
+
+    3. Simple Regression Tree
+
+    Regression trees are not useful in the real life problems. You can consider them as a step before the random forest regression and they are extremely important to understand the tree approach on the data set space.
+
+    In the random forest approach the decisions of regression trees are aggregated (most of the time we get the average of regressions) and random forest approach was the one of the most favorite approaches once.
+
+    Pros:
+
+    Great at learning complex, highly non-linear relationships. They usually can achieve pretty high performance, better than polynomial regression and often on par with neural networks.
+
+    Very easy to interpret and understand. Although the final trained model can learn complex relationships, the decision boundaries that are built during training are easy and practical to understand.
+
+    Cons:
+
+    Because of the nature of training decision trees they can be prone to major overfitting. A completed decision tree model can be overly-complex and contain unnecessary structure. Though this can sometimes be alleviated using proper tree pruning and larger random forest ensembles.
+
+    Using larger random forest ensembles to achieve higher performance comes with the drawbacks of being slower and requiring more memory.
+
+    4. Neural Network or Deep Learning Approach
+
+    This approach uses the neurons and reinforced learning most of the time. The main idea behind the algorithm is finding the optimum parameters for the neuron activation functions or the weights on the synapses. Because it has a reinforced learning approach, it can yield much better machine learning models at the end and it can go beyond the supervised learning or it can adapt itself to the dynamic environments and it can also model the hidden relations in the environment, like stock markets. On the other hand this advantage has a drawback and it requires huge amount of data and its training time is much longer than the rest of the algorithms.
+
+    Pros:
+
+    Since neural networks can have many layers (and thus parameters) with non-linearities, they are very effective at modelling highly complex non-linear relationships.
+
+    We generally don’t have to worry about the structure of the data at neural networks are very flexible in learning almost any kind of feature variable relationships.
+
+    Research has consistently shown that simply giving the network more training data, whether totally new or from augmenting the original data set, benefits network performance.
+
+    Cons:
+
+    Because of the complexity of these models, they’re not easy to interpret and understand.
+
+    They can be quite challenging and computationally intensive to train, requiring careful hyper-parameter tuning and setting of the learning rate schedule.
+
+    They require a lot of data to achieve high performance and are generally outperformed by other ML algorithms in “small data” cases.
 
 
+## Sample Problem/Stock Market Prediction
+
+![Stock Market Prediction](images/regression7.PNG)
