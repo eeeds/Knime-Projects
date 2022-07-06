@@ -481,3 +481,9 @@ We have covered below regression models and we are going to compare the models i
 ## Sample Problem/Stock Market Prediction
 
 ![Stock Market Prediction](images/regression7.PNG)
+
+## PMML
+
+    Predictive Model Markup Language (PMML) is an XML-based standard established by the Data Mining Group (DMG) for defining statistical and data-mining models.
+
+![PMML](images/pmml.PNG)
