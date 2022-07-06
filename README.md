@@ -403,6 +403,7 @@ After covering the clustering algorithms, we are comparing Hierarchical Clusteri
 -   You can use ```Simple Regression Tree Learner``` block to build a decision tree.
 -   You can use ```Simpre Regression Tree Predictor``` block to predict the value of a variable based on the value of multiple variables.
 -   As usual you can use ```Numeric Scorer``` block to calculate the error.
+-   Missing values can be handled using ```XGboost``` in the ```Simple Regression Tree Learner``` parameter.
 
 ![Simple Regression Tree](images/regression6.PNG)
 
