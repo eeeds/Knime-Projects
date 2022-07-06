@@ -492,3 +492,14 @@ We have covered below regression models and we are going to compare the models i
 -   You can use ```PMML Reader``` block to read the PMML file and convert it to a model.
 
 ![PMML-Knime](images/PMMl2.PNG)
+
+
+## ZeroR
+
+    ZeroR is the simplest classification method which relies on the target and ignores all predictors. ZeroR classifier simply predicts the majority category (class). Although there is no predictability power in ZeroR, it is useful for determining a baseline performance as a benchmark for other classification methods.		
+            
+    Algorithm		
+    Construct a frequency table for the target and select its most frequent value.		
+            
+    Example:		
+    "Play Golf = Yes" is the ZeroR model for the following dataset with an accuracy of 0.64.
