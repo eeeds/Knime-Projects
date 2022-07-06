@@ -494,12 +494,133 @@ We have covered below regression models and we are going to compare the models i
 ![PMML-Knime](images/PMMl2.PNG)
 
 
-## ZeroR
+## Comparison of Imbalanced Data Solutions
+### Imbalanced Data Solutions
+    We have covered some imbalanced data solutions, which can be listed as below:
 
-    ZeroR is the simplest classification method which relies on the target and ignores all predictors. ZeroR classifier simply predicts the majority category (class). Although there is no predictability power in ZeroR, it is useful for determining a baseline performance as a benchmark for other classification methods.		
-            
-    Algorithm		
-    Construct a frequency table for the target and select its most frequent value.		
-            
-    Example:		
-    "Play Golf = Yes" is the ZeroR model for the following dataset with an accuracy of 0.64.
+    Under Sampling the Majority Class
+
+    Over Sampling the Minority Class :
+
+    Random Sampling
+
+    Stratified Sampling
+
+    SMOTE (Synthetic Minority Over Sampling Technique)
+
+    Above techniques have advantages and disadvantages and this article discusses some generic problems and recommendations:
+
+### Advantages of this Under Sampling
+
+    The total amount of data points for the machine learning algorithm is reduced. This leads a faster machine learning process for most of the cases.
+
+### Disadvantages:
+
+    During the under sampling, there is always a risk of losing some useful information
+
+### Advantages of random over-sampling:
+
+    Unlike undersampling, this method leads to no information loss.
+
+### Disadvantages:
+
+    Some of the data points from minority class will be repeated which leads the possibility of likelihood and yields overfitting for the data points.
+
+    Tips for under / over sampling:
+
+    Use under sampling if you really have a good amount of data
+
+    If you don't have a good amount of data than over sampling is a better solution than under sampling
+
+    Always consider using stratified sampling for a better solution
+
+    You can change the ratio of classes: For example if you are dealing with a binary classifier (a classifier to determine one of the two classes (like male / female classification)) it is not always necessary to keep 1:1 ratio. For example 1:2 or 1:3 ratios might result a better solution. Don't forget, you are trying to train a machine learning algorithm, so the final success is not deploying an equally distributed data set, but the success of machine learning algorithm.
+
+### Advantages of SMOTE
+
+    Less risk of over fitting as in random over sampling
+
+    No loss of information.
+
+    A simple algorithm for implementation and interpretation
+
+### Disadvantages of SMOTE
+
+    SMOTE is based on the neighborhood relation and does not consider the classes of neighbors, so there is a risk of creating synthetic data for wrong classes.
+
+    SMOTE uses neighborhood and all neighborhood based algorithms have problems with high dimension of data
+
+## Evaluation Chart
+## Evaluation
+### General Supervised Techniques
+
+    ZeroR
+        ZeroR is the simplest classification method which relies on the target and ignores all predictors. ZeroR classifier simply predicts the majority category (class). Although there is no predictability power in ZeroR, it is useful for determining a baseline performance as a benchmark for other classification methods.		
+                
+        Algorithm		
+        Construct a frequency table for the target and select its most frequent value.		
+                
+        Example:		
+        "Play Golf = Yes" is the ZeroR model for the following dataset with an accuracy of 0.64.
+
+    Split Validation
+
+    k-Fold Cross Validation
+
+
+
+### Numerical Unsupervised : Clustering / Dimension Reduction
+
+    Purity
+
+    Randindex
+
+    WCSS
+
+    Silhouette
+
+    Lift
+
+    Entropy & Cross Entropy
+
+    Fowlkes-Mallows Scores (FMI)
+
+
+
+### Numerical Supervised : Regression / Prediction
+
+    Root Mean Square Error (RMSE)
+
+    Mean Absolute Error (MAE)
+
+    Mean Squared Error (MSE)
+
+    Mean Signed Difference (MSD)
+
+    R2 (R-Square or R-Two)
+
+
+
+### Categorical Unsupervised: Association Rule Mining
+
+    Supply
+
+    Confidence
+
+    Lift
+
+
+
+### Categorical Supervised: Classification
+
+    Confusion Matrix
+
+    Accuracy
+
+    Cohen’s Kappa
+
+    Error
+
+    Recall, Precision
+
+    F-Beta Score (F1 - Score)
