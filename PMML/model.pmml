@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2">
+  <Header copyright="User">
+    <Application name="KNIME" version="4.6.0"/>
+  </Header>
+  <DataDictionary numberOfFields="4">
+    <DataField name="ID" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="1.0" rightMargin="13.0"/>
+    </DataField>
+    <DataField name="Height" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="150.0" rightMargin="190.0"/>
+    </DataField>
+    <DataField name="Weight" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="40.0" rightMargin="90.0"/>
+    </DataField>
+    <DataField name="Sex" optype="categorical" dataType="string">
+      <Value value="Female"/>
+      <Value value="Male"/>
+    </DataField>
+  </DataDictionary>
+  <TreeModel modelName="DecisionTree" functionName="classification" splitCharacteristic="binarySplit" missingValueStrategy="lastPrediction" noTrueChildStrategy="returnNullPrediction">
+    <MiningSchema>
+      <MiningField name="ID" invalidValueTreatment="asIs"/>
+      <MiningField name="Height" invalidValueTreatment="asIs"/>
+      <MiningField name="Weight" invalidValueTreatment="asIs"/>
+      <MiningField name="Sex" invalidValueTreatment="asIs" usageType="target"/>
+    </MiningSchema>
+    <Node id="0" score="Female" recordCount="13.0">
+      <True/>
+      <ScoreDistribution value="Female" recordCount="7.0"/>
+      <ScoreDistribution value="Male" recordCount="6.0"/>
+      <Node id="1" score="Female" recordCount="7.0">
+        <SimplePredicate field="Weight" operator="lessOrEqual" value="65.5"/>
+        <ScoreDistribution value="Female" recordCount="7.0"/>
+        <ScoreDistribution value="Male" recordCount="0.0"/>
+      </Node>
+      <Node id="2" score="Male" recordCount="6.0">
+        <SimplePredicate field="Weight" operator="greaterThan" value="65.5"/>
+        <ScoreDistribution value="Female" recordCount="0.0"/>
+        <ScoreDistribution value="Male" recordCount="6.0"/>
+      </Node>
+    </Node>
+  </TreeModel>
+</PMML>

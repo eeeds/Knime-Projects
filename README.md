@@ -487,3 +487,8 @@ We have covered below regression models and we are going to compare the models i
     Predictive Model Markup Language (PMML) is an XML-based standard established by the Data Mining Group (DMG) for defining statistical and data-mining models.
 
 ![PMML](images/pmml.PNG)
+
+-   You can use ```PMML Writer``` block to convert the model to PMML.
+-   You can use ```PMML Reader``` block to read the PMML file and convert it to a model.
+
+![PMML-Knime](images/PMMl2.PNG)
