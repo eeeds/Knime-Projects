@@ -398,5 +398,11 @@ After covering the clustering algorithms, we are comparing Hierarchical Clusteri
 ![Regression](images/regression5.PNG)
 
 ## Regression by Decision Tree
+    Decision tree builds regression or classification models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes.
 
+-   You can use ```Simple Regression Tree Learner``` block to build a decision tree.
+-   You can use ```Simpre Regression Tree Predictor``` block to predict the value of a variable based on the value of multiple variables.
+-   As usual you can use ```Numeric Scorer``` block to calculate the error.
+
+![Simple Regression Tree](images/regression6.PNG)
 
