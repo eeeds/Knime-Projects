@@ -404,6 +404,9 @@ After covering the clustering algorithms, we are comparing Hierarchical Clusteri
 -   You can use ```Simpre Regression Tree Predictor``` block to predict the value of a variable based on the value of multiple variables.
 -   As usual you can use ```Numeric Scorer``` block to calculate the error.
 -   Missing values can be handled using ```XGboost``` in the ```Simple Regression Tree Learner``` parameter.
+-   You can limit the number of trees in the decision tree using the ```Limit number of levels``` parameter.
 
 ![Simple Regression Tree](images/regression6.PNG)
+
+
 
